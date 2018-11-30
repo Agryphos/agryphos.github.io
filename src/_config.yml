@@ -16,8 +16,8 @@
 title: Jacob's Programming Adventures
 email: js224wv@lnu.student.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my website. I'll use this to record my adventures in learning to do programming!
-baseurl: "js224wv" # the subpath of your site, e.g. /blog
+  Welcome to my website. I'll use this to record my adventures in learning programming!
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SkoogJacob
 github_username:  Agryphos
