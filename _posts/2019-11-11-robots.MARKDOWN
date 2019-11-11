@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "robots.txt"
+date:   2019-11-11 02:00:06 -0600
+categories: web-development
+---
+
+## What is robots.txt even for
+
+The web is populated not only by people, but also robots (we sometimes call them spiders, because they crawl across the web). Their base function is to simply go from website to website, but what they collect from the website can vary according to the intent of the creator of the bot.
+
+Google, for example, uses their crawler to index web content. Most people on the internet make use of this, as google is one of the most used search enginges on the web.
+
+Spammers, and other nefarious types, use robots to crawl through the web and collect personal information like e-mail addresses.
+
+robots.txt is a small text document that tells these robots what we think is ok for them to look at. Of course, robots.txt is basically just a polite request to these robots. The programmer could just as well program them to give absolutely 0 attention to this document.
+
+This is basically just me re-hashing the information the neat people behind [robotstxt.org](htttps://www.robotstxt.org) have written. So feel free to go there to read more detailed information.
+
+## So how is robots.txt used on this site
+
+Here on this site I've basically told all the friendly visiting robots to go elsewhere, except for google. Now considering how hungry google is for information this might not be the most rational way to do it, but it seemed okay at the time.
+
+Below is my robots.txt as it looks now
+
+{% highlight text %}
+User-agent: Googlebot
+Disallow:
+
+User-agent: *
+Disallow: /
+{% endhighlight %}

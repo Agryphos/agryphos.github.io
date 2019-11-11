@@ -1,28 +1,30 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to a Blog Thing!"
 date:   2019-11-11 01:35:06 -0600
-categories: jekyll update
+categories: jekyll
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Here's the first blog post for the site. This website is built using jekyll as a static site generator engine. Jekyll blog post files must be named according to a specific format (that being 'Year-MONTH-DAY-title.MARKUP').
 
-`YEAR-MONTH-DAY-title.MARKUP`
+This is my second try at making this stuff about static site generators and css pre-processors work. Last time I couldn't wrap my head around the file structure of the site and what to change and how to change it. I am determined to make that work out better this time though.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This blog can also show neat code snippets:
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight javascript %}
+// Here we have some javascript
+'use strict'
+let a = 10
+console.log(a)
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+{% highlight java %}
+// Here we have some java
+int a = 10;
+System.out.println(a);
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on the back-end of all of this.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
