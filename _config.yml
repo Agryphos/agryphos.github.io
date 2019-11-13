@@ -21,7 +21,7 @@
 title: Agryphos'
 email: js224wv@student.lnu.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site details some of my schoolwork as I learn to do software development.
+  This site details some of my schoolwork as I learn to do software development. It might also be home to some other stuff that I happen to find interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SkoogJacob
