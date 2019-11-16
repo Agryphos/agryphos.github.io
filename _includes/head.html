@@ -2,6 +2,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Trying to add open graph with tags that will adapt to the page  -->
+  <meta property="og:title" content={{page.title}} />
+  <meta property="og:type" content={{page.layout}} />
+  <meta property="og:url" content={{page.path}} />
+  <meta property="og:image" content="favicon.ico" />
+  
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
