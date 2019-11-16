@@ -10,7 +10,7 @@ Thanks to the course management for setting up the static website docker contain
 so that I can focus on working with the tools without having to understand every detail about them.
 
 /* SITE */
-Last update: 2019/11/15
+Last update: 2019/11/16
 Standards: HTML5, CSS3
 Components: Jekyll, Sass
 Software: Visual Studio Code, Docker, Git Bash, Github

@@ -13,7 +13,7 @@ The idea of humans.txt is, simply put, to highlight the humans involved in makin
 
 Deciding how to write the humans.txt for this little blog was a bit tricky. This website was made by taking an already made jekyll site prepared in a docker container and to start adding and modifying that base. As such I'm a little bit unsure of my own role. Am I the creator of this site, or would that be the course management of 1dv022 who actually made all this stuff, boilerplate and all?  
 I decided to give my own title as developer/responsible student, as I am in charge of developing this site, and to make sure to thank the course management for their role in making the foundation for this website.  
-Below is what my humans.txt for this site looks like.
+Below is what my humans.txt for this site looked like on November 11th 2019.
 
 {% highlight text %}
 /* TEAM */
@@ -24,9 +24,9 @@ Location: Jonkoping, Sweden
 
 /* THANKS */
 Name: LNU Course 1dv022 course management
-Thanks to the course management for setting 
+Thanks to the course management for setting
 up the static website docker container with working dependencies
-so that I can focus on working with the tools 
+so that I can focus on working with the tools
 without having to understand every detail about them.
 
 /* SITE */
