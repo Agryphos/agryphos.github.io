@@ -29,8 +29,9 @@ header_pages:
   - blog.markdown
 twitter_username: SkoogJacob
 github_username:  Agryphos
-disqus:
-  shortname: agryphos-developer-adventures.disqus.com
+
+disqus: # Enabling commments on the website
+  shortname: agryphos-developer-adventures
 
 # Build settings
 theme: minima

@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Comments are now a thing!"
+date:   2019-11-16 02:00:06 -0600
+categories: web-development
+---
+So, I just managed to enable comments! It took me way longer to get it to work than it should have, but it's finally done! This little post here will be about how exactly it is implemented on my site here. First I'll go into some backend before going into what I myself did to enable the comments.
+
+## So, the backend explanation
+
+To explain how I implemented it I should first go into some of the back-end of how the website itself is constructed. This website is made by using a fairly standard jekyll shell prepared by the course management of a course called "client-based web programming" at my university. This implementation uses the minima theme, and minima comes with a ready implementation for disqus comments that you only have to add about 2 lines of code to enable.  
+So what are those lines of code?
+
+## My actual work!
+
+Most of my work on this was just reading. Making this website is the first time I've ever used a static site generator, so I was quite confused by things like the file structure and what I'm even supposed to change and where. Now I feel like I'm starting to get a small handle on where things are and was therefore able to get it to work. Anyways, I've been reading up on jekyll, liquid, minima, sass and done a lot of googling and a fair bit of asking on the courses slack channel.  
+After and during all of this reading I tried to get this to work. In the layouts folder there are some base layouts for web pages and in the post layout there is a few lines of code, that I will present in pseudo-code so it doesn't get interpreted as acutal liquid code:
+{% highlight liquid %}
+if site.disqus.shortname
+  make disqus a thing
+{% endhighlight %}
+
+So what does this mean?  
+### What is site.disqus.shortname
+
+In jekyll, "site" is a standard variable that points to site settings and settings written in the _config.yml document. When something says site.SOMETHING it will look in the _config.yml for an attribute called "SOMETHING:" and read what is written after. When it says "site.SOMETHING.MORE" it will look into _config.yml, find SOMETHING and there find an attribute under "SOMETHING" called "MORE". So the way this looks in the yml document is this:
+{% highlight yml %}
+disqus: # Enabling commments on the website
+  shortname: agryphos-developer-adventures
+{% endhighlight %}  
+At first I wrote the shortname as a full URL address, which caused it not to work and made me flail around a lot more than I had to. On the other hand, when I finally did it I was really happy. For two lines of code. It's good to be happy with the small things.
