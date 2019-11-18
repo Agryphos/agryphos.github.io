@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to a Blog Thing!"
 date:   2019-11-11 01:35:06 -0600
 categories: jekyll
+description: My first blog on this jekyll site
 ---
 
 Here's the first blog post for the site. This website is built using jekyll as a static site generator engine. Jekyll blog post files must be named according to a specific format (that being 'Year-MONTH-DAY-title.MARKUP').
