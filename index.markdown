@@ -4,7 +4,6 @@
 
 layout: home
 title:  "Welcome to my web page!"
-fullurl: "https://agryphos.github.io/"
 content-type: "Home page"
 summary: "Welcome to a software development student's little blog space"
 ---

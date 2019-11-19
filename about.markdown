@@ -2,7 +2,6 @@
 layout: page
 title: "About Me"
 permalink: /about/
-fullurl: "https://agryphos.github.io/about/"
 content-type: "Self-introduction"
 summary: "For those rare unicorns amongst you that want to learn something about me"
 ---
