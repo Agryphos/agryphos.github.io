@@ -2,7 +2,7 @@
 layout: home
 title: "Blog"
 permalink: /blog/
-fullurl: "{{%- site.url -%}}" + "/jekyll/blog/"
+fullurl: "https://agryphos.github.io/jekyll/blog/"
 content-type: "Post list"
 summary: "All of my posts"
 ---

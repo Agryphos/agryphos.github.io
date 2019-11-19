@@ -2,7 +2,7 @@
 layout: post
 title:  "humans.txt"
 date:   2019-11-15 02:00:06 -0600
-fullurl: "{{%- site.url -%}}" + "/web-development/2019/11/15/humans.html"
+fullurl: "https://agryphos.github.io/web-development/2019/11/15/humans.html"
 categories: web-development
 content-type: "post"
 summary: "humans.txt and my implementation"

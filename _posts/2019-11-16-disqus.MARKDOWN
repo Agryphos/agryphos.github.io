@@ -2,7 +2,7 @@
 layout: post
 title:  "Comments are now a thing!"
 date:   2019-11-16 02:00:06 -0600
-fullurl: "{{%- site.url -%}}" + "/social-functions/2019/11/16/disqus.html"
+fullurl: "https://agryphos.github.io/social-functions/2019/11/16/disqus.html"
 categories: social-functions
 content-type: "post"
 summary: "The backend explanation of comments on my site"

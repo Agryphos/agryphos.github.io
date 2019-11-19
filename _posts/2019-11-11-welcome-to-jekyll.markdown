@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to a Blog Thing!"
 date:   2019-11-11 01:35:06 -0600
-fullurl: "{{%- site.url -%}}" + "/jekyll/2019/11/11/welcome-to-jekyll.html"
+fullurl: "https://agryphos.github.io/jekyll/2019/11/11/welcome-to-jekyll.html"
 categories: jekyll
 content-type: "post"
 summary: "My first blog on this jekyll site"
