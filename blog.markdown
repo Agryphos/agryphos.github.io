@@ -1,6 +1,9 @@
 ---
 layout: home
-title: Blog
+title: "Blog"
 permalink: /blog/
+fullurl: "{{%- site.url -%}}" + "/jekyll/blog/"
+content-type: "Post list"
+summary: "All of my posts"
 ---
 Here is my blog feed. Enjoy!

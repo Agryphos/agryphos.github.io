@@ -2,8 +2,10 @@
 layout: post
 title:  "robots.txt"
 date:   2019-11-11 02:00:06 -0600
+fullurl: "{{%- site.url -%}}" + "/web-development/2019/11/11/robots.html"
 categories: web-development
-post-theme: robots.txt and my websites implementation
+content-type: "post"
+summary: "robots.txt and my websites implementation"
 ---
 
 ## What is robots.txt even for

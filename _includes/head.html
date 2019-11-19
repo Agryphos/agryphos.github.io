@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Trying to add open graph with tags that will adapt to the page  -->
   <meta property="og:title" content="{{%- page.title -%}}" />
-  <meta property="og:type" content="{{%- page.layout  -%}}" />
-  <meta property="og:url" content="{{%- site.url + page.path -%}}" />
+  <meta property="og:type" content="{{%- page.content-type  -%}}" />
+  <meta property="og:url" content="{{%- page.fullurl -%}}" />
   <meta property="og:image" content="favicon.ico" />
-  <meta property="og:description" content="{{%- page.post-theme -%}}" />
+  <meta property="og:description" content="{{%- page.summary -%}}" />
   
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">

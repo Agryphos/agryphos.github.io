@@ -2,8 +2,10 @@
 layout: post
 title:  "humans.txt"
 date:   2019-11-15 02:00:06 -0600
+fullurl: "{{%- site.url -%}}" + "/web-development/2019/11/15/humans.html"
 categories: web-development
-post-theme: humans.txt and my implementation
+content-type: "post"
+summary: "humans.txt and my implementation"
 ---
 ## What is humans.txt
 

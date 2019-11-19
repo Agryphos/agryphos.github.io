@@ -2,8 +2,10 @@
 layout: post
 title:  "Comments are now a thing!"
 date:   2019-11-16 02:00:06 -0600
-categories: social functions
-post-theme: The backend explanation of comments on my site
+fullurl: "{{%- site.url -%}}" + "/social-functions/2019/11/16/disqus.html"
+categories: social-functions
+content-type: "post"
+summary: "The backend explanation of comments on my site"
 ---
 So, I just managed to enable comments! It took me way longer to get it to work than it should have, but it's finally done! This little post here will be about how exactly it is implemented on my site here. First I'll go into some backend before going into what I myself did to enable the comments.
 
