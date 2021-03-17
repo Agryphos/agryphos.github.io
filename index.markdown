@@ -9,4 +9,4 @@ summary: "Welcome to a software development student's little blog space"
 ---
 # Welcome to my little web page
 
-Welcome to a place where you will find various little things about software development as I go on to learn this trade from scratch. I will probably also post about some other things I happen to find interesting.
+Welcome to a place where you will find various little things about software development as I go on to learn this trade from scratch. I will probably also post about some other things I happen to find interesting. I recently got a sweet book about data science, so if I have time over I might make some posts about that!
